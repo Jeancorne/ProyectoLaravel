@@ -1,0 +1,193 @@
+<div class="product-item" category="laptops">
+						
+						<p>
+							<strong>
+								¿Cómo hacer que el consumidor final prefiera a Sol-or al elegir un producto para el cuidado  y protección de la piel en todo momento?
+							</strong>
+						</p>
+						<p>Queremos descubrir nuevas maneraes o estrategias que nos ayuden a ser la elección en el punto de venta del consumidor que quiere cuidarse su piel y pro.</p>
+						<p> 
+							<strong> Ciudad: </strong>
+							Medellín
+						</p>
+						<hr>
+						<button type="button" onclick="otromasp()" class="btn btn-primary">Ver más</button>
+						<div class="imagenreto">
+							<img src="img_empresas/Adidas.jpg">
+							<br>
+							<div class="nombre1"><a href=""> Adidas</a> </div>
+							<hr>
+						</div>
+
+
+					</div>
+					<div class="product-item" category="laptops">
+						<p>
+							<strong>
+								¿Cómo hacer que el consumidor final prefiera a Sol-or al elegir un producto para el cuidado  y protección de la piel en todo momento?
+							</strong>
+						</p>
+						<p>Queremos descubrir nuevas maneras o estrategias que nos ayuden a ser la elección en el punto de venta del consumidor que quiere cuidarse su piel y pro.</p>
+						<p> 
+							<strong> Ciudad: </strong>
+							Medellín
+						</p>
+						<hr>
+						<button type="submit"  class="btn btn-primary">Ver más</button>
+						<div class="imagenreto">
+							<img src="img_empresas/Gillette.jpg">
+							<br>
+							<div class="nombre1"><a> Gillete</a> </div>
+							<hr>
+						</div>
+
+
+					</div>
+					<div class="product-item" category="laptops">
+						
+						<p>
+							<strong>
+								¿Cómo hacer que el consumidor final prefiera a Sol-or al elegir un producto para el cuidado  y protección de la piel en todo momento?
+							</strong>
+						</p>
+						<p>Queremos descubrir nuevas maneras o estrategias que nos ayuden a ser la elección en el punto de venta del consumidor que quiere cuidarse su piel y pro.</p>
+						<p> 
+							<strong> Ciudad: </strong>
+							Medellín
+						</p>
+						<hr>
+						<button type="submit"  class="btn btn-primary">Ver más</button>
+						<div class="imagenreto">
+							<img src="img_empresas/images.png">
+							<br>
+							<div class="nombre1"><a> Lego</a> </div>
+							
+							<hr>
+						</div>
+
+					</div>
+					<div class="product-item" category="laptops">
+						<a>
+						<p>
+							<strong>
+								¿Cómo hacer que el consumidor final prefiera a Sol-or al elegir un producto para el cuidado  y protección de la piel en todo momento?
+							</strong>
+						</p>
+						<p>Queremos descubrir nuevas maneras o estrategias que nos ayuden a ser la elección en el punto de venta del consumidor que quiere cuidarse su piel y pro.</p>
+						<p> 
+							<strong> Ciudad: </strong>
+							Medellín
+						</p>
+						<hr>
+						<button type="button" class="btn btn-primary">Ver más</button>
+						<div class="imagenreto">
+							<img src="img_empresas/images.jpg">
+							<br>
+							<div class="nombre1"><a> Coca-Cola</a> </div>
+							<hr>
+						</div>
+
+					</div>
+					<div class="product-item" category="laptops">
+							<p>
+							<strong>
+								¿Cómo hacer que el consumidor final prefiera a Sol-or al elegir un producto para el cuidado  y protección de la piel en todo momento?
+							</strong>
+						</p>
+						<p>Queremos descubrir nuevas maneras o estrategias que nos ayuden a ser la elección en el punto de venta del consumidor que quiere cuidarse su piel y pro.</p>
+						<p> 
+							<strong> Ciudad: </strong>
+							Medellín
+						</p>
+						<hr>
+						<button type="button" class="btn btn-primary">Ver más</button>
+						<div class="imagenreto">
+							<img src="img_empresas/logo.jpg">
+							<br>
+							<div class="nombre1"><a> Michelin</a> </div>
+							<hr>
+						</div>
+
+
+					</div>
+					<div class="product-item" category="laptops">
+							<p>
+							<strong>
+								¿Cómo hacer que el consumidor final prefiera a Sol-or al elegir un producto para el cuidado  y protección de la piel en todo momento?
+							</strong>
+						</p>
+						<p>Queremos descubrir nuevas maneras o estrategias que nos ayuden a ser la elección en el punto de venta del consumidor que quiere cuidarse su piel y pro.</p>
+						<p> 
+							<strong> Ciudad: </strong>
+							Medellín
+						</p>
+						<hr>
+						<button type="button" class="btn btn-primary">Ver más</button>
+						<div class="imagenreto">
+							<img src="img_empresas/fanta.jpg">
+							<br>
+							<div class="nombre1"><a>Fanta </a> </div>
+							<hr>
+						</div>
+					</div>
+					<div class="product-item" category="laptops">
+							<p>
+							<strong>
+								¿Cómo hacer que el consumidor final prefiera a Sol-or al elegir un producto para el cuidado  y protección de la piel en todo momento?
+							</strong>
+						</p>
+						<p>Queremos descubrir nuevas maneras o estrategias que nos ayuden a ser la elección en el punto de venta del consumidor que quiere cuidarse su piel y pro.</p>
+						<p> 
+							<strong> Ciudad: </strong>
+							Medellín
+						</p>
+						<hr>
+						<button type="button" class="btn btn-primary">Ver más</button>
+						<div class="imagenreto">
+							<img src="img_empresas/ebay.jpg">
+							<br>
+							<div class="nombre1"><a> Ebay</a> </div>
+							<hr>
+						</div>
+					</div>
+					<div class="product-item" category="laptops">
+							<p>
+							<strong>
+								¿Cómo hacer que el consumidor final prefiera a Sol-or al elegir un producto para el cuidado  y protección de la piel en todo momento?
+							</strong>
+						</p>
+						<p>Queremos descubrir nuevas maneras o estrategias que nos ayuden a ser la elección en el punto de venta del consumidor que quiere cuidarse su piel y pro.</p>
+						<p> 
+							<strong> Ciudad: </strong>
+							Medellín
+						</p>
+						<hr>
+						<button type="button" class="btn btn-primary">Ver más</button>
+						<div class="imagenreto">
+							<img src="img_empresas/mcdonal.jpg">
+							<br>
+							<div class="nombre1"><a> McDonal</a> </div>
+							<hr>
+						</div>
+					</div>
+					<div class="product-item" category="laptops">
+							<p>
+							<strong>
+								¿Cómo hacer que el consumidor final prefiera a Sol-or al elegir un producto para el cuidado  y protección de la piel en todo momento?
+							</strong>
+						</p>
+						<p>Queremos descubrir nuevas maneras o estrategias que nos ayuden a ser la elección en el punto de venta del consumidor que quiere cuidarse su piel y pro.</p>
+						<p> 
+							<strong> Ciudad: </strong>
+							Medellín
+						</p>
+						<hr>
+						<button type="button" class="btn btn-primary">Ver más</button>
+						<div class="imagenreto">
+							<img src="img_empresas/samsung.jpg">
+							<br>
+							<div class="nombre1"><a> Samsung</a> </div>
+							<hr>
+						</div>
+					</div>
+					

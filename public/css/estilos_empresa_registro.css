@@ -1,0 +1,665 @@
+
+
+body{
+	
+	background-size: 100vw 100vh;
+	margin: 0px;	
+	font-family: verdana;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	cursor: default;
+	font-size: 1.5rem;
+
+
+	
+}
+#cargando {
+	
+	text-align: center;
+	width: 100%;
+    position: fixed;
+    left: 0%;
+    top: 35%;  
+    z-index: 9999;  
+    opacity: .8;
+    font-size: 15px;
+  
+}
+
+#cargando img{
+	width: 5%;
+	height: 20%;
+
+}
+
+/* MENSAJES DE VALIDACIONES */
+/* MENSAJES DE VALIDACIONES */
+
+.informaciones{
+	position: fixed;
+	width: 30%;
+	background: red;
+	z-index: 9999;
+	font-size: 15px;
+	margin: 0px;
+}
+#validar_nit{
+	display: block;
+	width: 100%;
+	font-size: 15px;
+	text-align: center;
+}
+
+#validar_nombre{
+	display: block;
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+}
+
+#validar_corre{
+		text-align: center;
+	display: block;
+	width: 100%;
+	font-size: 15px;
+}
+
+#validar_direccion{
+	text-align: center;
+	display: block;
+	width: 100%;
+	font-size: 15px;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 25% !important;
+    z-index: 1030;
+}
+
+
+#validar_contrasena1{
+	text-align: center;
+	display: block;
+	width: 100%;
+	font-size: 15px;
+}
+
+#validar_imagen{
+	text-align: center;
+	display: block;
+	width: 100%;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MENSAJES DE VALIDACIONES */
+/* MENSAJES DE VALIDACIONES */
+
+.color1{
+	background: #fc7323;
+	height: 10px;
+	margin-bottom: 2%;
+}
+
+#footer{
+	width: 100%;
+	position: absolute;
+	    bottom: -260px;
+}
+
+.color2{
+	background: #238276;
+	height: 10px;
+	
+}
+
+.color3{
+	background: #59b548;
+	height: 10px;
+	
+}
+.imagen_preload{
+	margin-top: 3%;
+    width: 63%;
+    margin: auto;
+   
+
+}
+    
+.imagen_preload img{
+	width: 45%;
+    height: 40%;
+    display: none;
+    margin: auto;
+    width: 30%;
+    margin-top: 2%;
+}
+
+.imagenes{
+	margin-top: 1%;
+	text-align: center;
+}
+
+#imagen_emp{
+	display: none;
+}
+
+#imagen_subida{
+	font-size: 5.5rem	;
+}
+
+#imagen_subida:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+#nombre_imagen{
+	height: 25px;
+    width: 60%;   
+    margin: auto;
+    font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.imagenes input[type="file"]{
+	width: 35% !important;
+	font-size: 15px !important;
+	background: white;
+	color: black;
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	width: 15%;
+}
+.total2{
+	background: #B0E0E6;
+	height: auto;
+	padding: 10px 50px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+.espacio{
+	margin-top: 1%;
+}
+
+
+
+.total2 input{
+	width: 60%;
+}
+
+.total2 select{
+	width: 50%;
+	float: left;
+}
+
+
+.izquierda{
+	
+	height: 100%;
+}
+
+.derecha{
+	
+	height: 100%;
+}
+
+.total2 input[type="text"],
+.total2 input[type="password"],
+.total2 input[type="email"]{
+
+	font-size: 18px;
+	margin-top: 1%;
+	padding: 15px 15px 0px;  
+	background:white;     
+	border-radius: 3px;   
+	color: black;
+}
+
+.total2 input:hover{
+	border-bottom: 3px solid black;
+}
+
+.total2 select{
+	font-size: 15px;
+	margin-top: 1%;
+	padding: 10px 15px 0px;	 
+	border-radius: 3px;   
+	font-family: helvetica;
+	color: black;
+	border-bottom: 4px solid #59b548;
+}
+
+
+#centra{
+	text-align: center;
+}
+
+.uno{
+	width: 27%;
+	margin-top: 1%;
+	background: #fc7323;
+	color: white;
+}
+
+.uno:hover{
+	background: #238276;
+
+}
+
+input{
+	border: none;
+	border-bottom: 3px solid #4682B4;
+
+}
+
+::placeholder{
+	color: black;
+}
+
+
+
+
+select:hover{
+	border-bottom: 4px solid #708090;
+}
+
+.total2 .icon2{
+	
+	
+	color: rgb(0,0,0,0.7);
+	margin-left: 20%;
+	font-size: 1.5rem;	
+	float: left;
+	padding-right: 8px;
+	padding-top: 14px;
+
+
+}
+
+
+
+
+@media (max-width: 350px){
+
+	.total2 input{
+		width: 85%;
+	}
+
+	
+	.total2 input[type="text"],
+	.total2 input[type="password"],
+	.total2 input[type="email"]{
+	width: 85%;
+	font-size: 13px;
+	
+
+
+}
+
+.imagenes input[type="file"]{
+	width: 69% !important;
+	margin-bottom: 5%;
+}
+
+.uno{
+	width: 100%;
+
+}
+
+.logo img{
+	width: 40%;
+}
+
+
+
+}
+
+
+@media (min-width: 351px) and (max-width: 450px){
+
+	.total2 input{
+		width: 85%;
+	}
+
+	
+	.total2 input[type="text"],
+	.total2 input[type="password"],
+	.total2 input[type="email"]{
+	width: 85%;
+	font-size: 14px;
+	
+
+
+}
+
+.imagenes input[type="file"]{
+	width: 49% !important;
+	margin-bottom: 5%;
+}
+
+.uno{
+	width: 100%;
+
+}
+
+.logo img{
+	width: 40%;
+}
+
+
+
+}
+
+
+@media (min-width: 451px) and (max-width: 550px){
+
+	.total2 input{
+		width: 85%;
+	}
+
+	
+	.total2 input[type="text"],
+	.total2 input[type="password"],
+	.total2 input[type="email"]{
+	width: 85%;
+	font-size: 16px;
+	
+
+
+}
+
+.imagenes input[type="file"]{
+	width: 38% !important;
+	margin-bottom: 5%;
+}
+
+.uno{
+	width: 100%;
+
+}
+
+.logo img{
+	width: 40%;
+}
+
+.total2{
+	height: auto;
+}
+
+
+
+
+}
+
+
+@media (min-width: 551px) and (max-width: 650px){
+
+	.total2 input{
+		width: 85%;
+	}
+
+	
+	.total2 input[type="text"],
+	.total2 input[type="password"],
+	.total2 input[type="email"]{
+	width: 85%;
+	font-size: 16px;
+	
+
+
+}
+
+.imagenes input[type="file"]{
+	width: 35% !important;
+	margin-bottom: 5%;
+}
+
+.uno{
+	width: 100%;
+
+}
+
+.logo img{
+	width: 30%;
+}
+
+.total2{
+	height: auto;
+}
+
+
+
+
+}
+
+
+@media (min-width: 651px) and (max-width: 766px){
+
+	.total2 input{
+		width: 85%;
+	}
+
+	
+	.total2 input[type="text"],
+	.total2 input[type="password"],
+	.total2 input[type="email"]{
+	width: 85%;
+	font-size: 16px;
+	
+
+
+}
+
+.imagenes input[type="file"]{
+	width: 35% !important;
+	margin-bottom: 5%;
+}
+
+.uno{
+	width: 100%;
+
+}
+
+.logo img{
+	width: 30%;
+}
+
+.total2{
+	height: auto;
+}
+
+
+
+
+}
+
+
+@media (min-width: 767px) and (max-width: 850px){
+
+	.total2 input{
+		width: 85%;
+	}
+
+	
+	.total2 input[type="text"],
+	.total2 input[type="password"],
+	.total2 input[type="email"]{
+	width: 85%;
+	font-size: 16px;
+	
+
+
+}
+
+.imagenes input[type="file"]{
+	width: 80% !important;
+	margin-bottom: 5%;
+}
+
+.uno{
+	width: 70%;
+
+}
+
+.logo img{
+	width: 20%;
+}
+
+.total2{
+	height: auto;
+}
+
+
+
+
+}
+
+
+
+@media (min-width: 851px) and (max-width: 950px){
+
+	.total2 input{
+		width: 85%;
+	}
+
+	
+	.total2 input[type="text"],
+	.total2 input[type="password"],
+	.total2 input[type="email"]{
+	width: 85%;
+	font-size: 16px;
+	
+
+
+}
+
+.imagenes input[type="file"]{
+	width: 55% !important;
+	margin-bottom: 5%;
+}
+
+.uno{
+	width: 50%;
+
+}
+
+.logo img{
+	width: 30%;
+}
+
+.total2{
+	height: auto;
+}
+
+
+
+
+}
+
+
+@media (min-width: 951px) and (max-width: 991px){
+
+	.total2 input{
+		width: 85%;
+	}
+
+	
+	.total2 input[type="text"],
+	.total2 input[type="password"],
+	.total2 input[type="email"]{
+	width: 85%;
+	font-size: 16px;
+	
+
+
+}
+
+.imagenes input[type="file"]{
+	width: 55% !important;
+	margin-bottom: 5%;
+}
+
+.uno{
+	width: 50%;
+
+}
+
+.logo img{
+	width: 30%;
+}
+
+.total2{
+	height: auto;
+}
+
+
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1050px){
+
+	.total2 input{
+		width: 85%;
+	}
+
+	
+	.total2 input[type="text"],
+	.total2 input[type="password"],
+	.total2 input[type="email"]{
+	width: 85%;
+	font-size: 16px;
+	
+
+
+}
+
+.imagenes input[type="file"]{
+	width: 55% !important;
+	margin-bottom: 5%;
+}
+
+.uno{
+	width: 50%;
+
+}
+
+.logo img{
+	width: 20%;
+}
+
+.total2{
+	height: auto;
+}
+
+
+
+
+}

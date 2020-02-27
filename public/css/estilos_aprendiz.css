@@ -1,0 +1,1355 @@
+
+body{
+	
+	background-size: 100vw 100vh;
+	margin: 0px;	
+	font-family: verdana;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	cursor: default;
+	
+}
+
+.color1{
+	background: #fc7323;
+	height: 10px;
+	margin-bottom: 2%;
+}
+
+.color2{
+	background: #238276;
+	height: 10px;
+	margin-top: 5%;
+}
+
+.color3{
+	background: #59b548;
+	height: 10px;
+	margin-top: 5%;
+}
+
+
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	width: 15%;
+}
+
+.total2{
+	background: #B0E0E6;
+	height: auto;
+	padding: 10px 50px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 10px;
+	text-align: center;
+
+}
+
+
+
+/* PANEL DE VALIDACIONES  */ 
+/* PANEL DE VALIDACIONES  */ 
+/* PANEL DE VALIDACIONES  */ 
+.fixed-bottom {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    height: 97%;
+    z-index: 1030;
+    left: 73% !important;
+    width: 25% !important;
+}
+
+
+.fixed-derecho {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    height: 97%;
+    z-index: 1030;
+    left: 2% !important;
+    width: 25% !important;
+}
+#validar_nombre{
+	display: none;
+	width: 100%;
+	font-size: 15px;
+	text-align: center;
+}
+
+#validar_apellido{
+	display: none;
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+}
+
+#validar_documento{
+	display: none;
+	text-align: center;
+	width: 100%;
+	font-size: 15px;
+}
+
+#validar_departamento{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+#validar_ciudad{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+
+#validar_telefono{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+
+#validar_celular{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+#validar_ficha{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+#validar_programa{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+#validar_centro{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+#validar_direccion{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+#validar_telefono{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+#validar_correo{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+#validar_contrasena	{
+	text-align: center;
+	display: none;
+	width: 100%;
+	font-size: 15px;
+}
+
+.msg{
+	display: none;
+}
+
+.faltan_datos{
+	width: 100%;
+	display: none;
+	height: auto;
+	padding: 2%;
+}
+
+/* PANEL DE VALIDACIONES  */ 
+/* PANEL DE VALIDACIONES  */ 
+/* PANEL DE VALIDACIONES  */ 
+
+
+.total2 input{
+	width: 50%;
+	float: left;
+}
+
+.total2 select{
+	width: 50%;
+	float: left;
+}
+
+
+
+
+.total2 input[type="text"],
+.total2 input[type="password"],
+.total2 input[type="email"]{
+
+	font-size: 18px;
+	margin-top: 1%;
+	padding: 15px 15px 0px;  
+	background:white;     
+	border-radius: 3px;   
+	
+	color: black;
+
+
+}
+
+.total2 input:hover{
+	border-bottom: 3px solid black;
+}
+
+.total2 select{
+	font-size: 15px;
+	margin-top: 1%;
+	height: 2%;
+	height: 45px;
+	padding: 10px 15px 0px;	 
+	border-radius: 3px;   
+	font-family: helvetica;
+	color: black;
+	border-bottom: 4px solid #4682B4;
+}
+
+
+#centra{
+	text-align: center;
+}
+
+.butones{
+	width: 100%;
+	height: 100px;
+	
+	margin: 2%;
+	text-align: center;
+}
+.butones input{
+	float: none;
+	
+}
+.butones input:hover{
+	border-bottom: 0px;
+}
+
+.uno{
+	width: 20% !important;
+	margin-top: 5%;
+	background: #fc7323;
+	color: white;
+}
+
+.aplicar_reto{
+	width: 27%;
+	margin-top: 1%;
+	background: #fc7323;
+	color: white;
+}
+
+.aplicar_reto:hover{
+	background: #238276;
+
+}
+.uno:hover{
+	background: #238276;
+	color: white;
+
+}
+
+input{
+	border: none;
+	border-bottom: 3px solid #4682B4;
+
+}
+
+::placeholder{
+	color: black;
+}
+
+
+
+
+select:hover{
+	border-bottom: 4px solid black;
+}
+
+.total2 .icon2{
+	
+	
+	color: rgb(0,0,0,0.7);
+	margin-left: 20%;
+	font-size: 1.5rem;	
+	float: left;
+	padding-right: 8px;
+	padding-top: 14px;
+
+
+}
+
+
+
+@media (max-width: 350px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 99%;		
+		left: 2% !important;
+		width: 45% !important;
+	}
+	.fixed-bottom{
+		left: 52% !important;
+   		width: 45% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_apellido {
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_documento {
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_departamento {
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_ciudad {
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_telefono {
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 9px;
+		height: 11%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		font-size: 9px;		
+	}
+	/* PANEL DE VALIDACIONES */
+	.total2{
+		background: #B0E0E6;
+		height: 850px;
+		padding: 10px 50px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.total2 .icon2{
+		margin-left: 10%;
+	}
+
+	.total2 input {
+		width: 75%;
+		float: left;
+	}
+	.total2 select {
+		width: 75%;
+		float: left;
+	}
+
+	.logo img {
+		width: 50%;
+	}
+
+	.uno {
+		width: 70%;
+		margin-top: 4%;
+
+	}
+
+	.color2{
+		background: #238276;
+		height: 30px;
+		margin-top: 1%;
+	}
+
+	.color3{
+		background: #59b548;
+		height: 30px;
+		margin-top: 1%;
+	}
+
+
+}
+
+
+@media (min-width: 351px) and (max-width: 400px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 99%;		
+		left: 2% !important;
+		width: 45% !important;
+	}
+	.fixed-bottom{
+		left: 52% !important;
+   		width: 45% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_apellido {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_documento {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_departamento {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_ciudad {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_telefono {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		font-size: 11px;		
+	}
+	/* PANEL DE VALIDACIONES */
+	.total2{
+		background: #B0E0E6;
+		height: 850px;
+		padding: 10px 50px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.total2 .icon2{
+		margin-left: 10%;
+	}
+
+	.total2 input {
+		width: 75%;
+		float: left;
+	}
+	.total2 select {
+		width: 75%;
+		float: left;
+	}
+
+	.logo img {
+		width: 50%;
+	}
+
+	.uno {
+		width: 70%;
+		margin-top: 4%;
+	}
+
+	.color2{
+		background: #238276;
+		height: 40px;
+		margin-top: 3%;
+	}
+
+	.color3{
+		background: #59b548;
+		height: 40px;
+		margin-top: 3%;
+	}
+
+
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 99%;		
+		left: 2% !important;
+		width: 45% !important;
+	}
+	.fixed-bottom{
+		left: 52% !important;
+   		width: 45% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_apellido {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_documento {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_departamento {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_ciudad {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_telefono {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		font-size: 11px;		
+	}
+	/* PANEL DE VALIDACIONES */
+	.total2{
+		background: #B0E0E6;
+		height: 880px;
+		padding: 10px 50px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.total2 .icon2{
+		margin-left: 10%;
+	}
+
+	.total2 input {
+		width: 75%;
+		float: left;
+	}
+	.total2 select {
+		width: 75%;
+		float: left;
+	}
+
+	.logo img {
+		width: 35%;
+	}
+
+	.uno {
+		width: 70%;
+		margin-top: 4%;
+	}
+
+	.color2{
+		background: #238276;
+		height: 40px;
+		margin-top: 3%;
+	}
+
+	.color3{
+		background: #59b548;
+		height: 40px;
+		margin-top: 3%;
+	}
+
+
+}
+
+
+@media (min-width: 501px) and (max-width: 600px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 99%;		
+		left: 2% !important;
+		width: 45% !important;
+	}
+	.fixed-bottom{
+		left: 52% !important;
+   		width: 45% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_apellido {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_documento {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_departamento {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_ciudad {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_telefono {
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 11px;
+		height: 13%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		font-size: 11px;		
+	}
+	/* PANEL DE VALIDACIONES */
+	.total2{
+		background: #B0E0E6;
+		height: 900px;
+		padding: 10px 50px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.total2 .icon2{
+		margin-left: 10%;
+	}
+
+	.total2 input {
+		width: 75%;
+		float: left;
+	}
+	.total2 select {
+		width: 75%;
+		float: left;
+	}
+
+	.logo img {
+		width: 30%;
+	}
+
+	.uno {
+		width: 70%;
+		margin-top: 4%;
+	}
+
+	.color2{
+		background: #238276;
+		height: 40px;
+		margin-top: 3%;
+	}
+
+	.color3{
+		background: #59b548;
+		height: 40px;
+		margin-top: 3%;
+	}
+
+
+}
+
+
+@media (min-width: 601px) and (max-width: 800px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 99%;		
+		left: 2% !important;
+		width: 40% !important;
+	}
+	.fixed-bottom{
+		left: 56% !important;
+   		width: 40% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_apellido {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_documento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_departamento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ciudad {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_telefono {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		font-size: 13px;		
+	}
+	/* PANEL DE VALIDACIONES */
+	.total2{
+		background: #B0E0E6;
+		height: 900px;
+		padding: 10px 50px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.total2 .icon2{
+		margin-left: 10%;
+	}
+
+	.total2 input {
+		width: 75%;
+		float: left;
+	}
+	.total2 select {
+		width: 75%;
+		float: left;
+	}
+
+	.logo img {
+		width: 30%;
+	}
+
+	.uno {
+		width: 70%;
+		margin-top: 4%;
+	}
+
+	.color2{
+		background: #238276;
+		height: 40px;
+		margin-top: 3%;
+	}
+
+	.color3{
+		background: #59b548;
+		height: 40px;
+		margin-top: 3%;
+	}
+
+
+}
+
+
+@media (min-width: 801px) and (max-width: 900px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 99%;		
+		left: 2% !important;
+		width: 30% !important;
+	}
+	.fixed-bottom{
+		left: 66% !important;
+   		width: 30% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_apellido {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_documento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_departamento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ciudad {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_telefono {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		font-size: 13px;		
+	}
+	/* PANEL DE VALIDACIONES */
+	.total2{
+		background: #B0E0E6;
+		height: 585px;
+		padding: 10px 50px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.total2 .icon2{
+		margin-left: 10%;
+	}
+
+	.total2 input {
+		width: 75%;
+		float: left;
+	}
+	.total2 select {
+		width: 75%;
+		float: left;
+	}
+
+	.logo img {
+		width: 20%;
+	}
+
+	.uno {
+		width: 70%;
+		margin-top: 4%;
+	}
+
+	.color2{
+		background: #238276;
+		height: 20px;
+		margin-top: 3%;
+	}
+
+	.color3{
+		background: #59b548;
+		height: 20px;
+		margin-top: 3%;
+	}
+
+
+}
+
+
+@media (min-width: 901px) and (max-width: 1000px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 99%;		
+		left: 2% !important;
+		width: 30% !important;
+	}
+	.fixed-bottom{
+		left: 66% !important;
+   		width: 30% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_apellido {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_documento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_departamento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ciudad {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_telefono {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		font-size: 13px;		
+	}
+	/* PANEL DE VALIDACIONES */
+	.total2{
+		background: #B0E0E6;
+		height: 585px;
+		padding: 10px 50px;
+		box-sizing: border-box;
+		margin-top: 20px;
+		border-radius: 10px;
+		text-align: center;
+	}
+
+	.total2 .icon2{
+		margin-left: 10%;
+	}
+
+	.total2 input {
+		width: 75%;
+		float: left;
+	}
+	.total2 select {
+		width: 75%;
+		float: left;
+	}
+
+	.logo img {
+		width: 22%;
+	}
+
+	.uno {
+		width: 70%;
+		margin-top: 4%;
+	}
+
+	.color2{
+		background: #238276;
+		height: 30px;
+		margin-top: 3%;
+	}
+
+	.color3{
+		background: #59b548;
+		height: 30px;
+		margin-top: 3%;
+	}
+
+
+}
+
+
+@media (min-width: 1001px) and (max-width: 1076px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 99%;		
+		left: 2% !important;
+		width: 30% !important;
+	}
+	.fixed-bottom{
+		left: 66% !important;
+   		width: 30% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_apellido {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_documento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_departamento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ciudad {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_telefono {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		font-size: 13px;		
+	}
+	/* PANEL DE VALIDACIONES */
+}
+
+@media (min-width: 1076px) and (max-width: 1150px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 88%;		
+		left: 2% !important;
+		width: 22% !important;
+	}
+	.fixed-bottom{
+		left: 76% !important;
+   		width: 22% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_apellido {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_documento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_departamento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ciudad {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_telefono {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		height: 15%;
+		font-size: 13px;		
+	}
+	/* PANEL DE VALIDACIONES */
+}
+
+
+@media (min-width: 1150px) and (max-width: 1300px){
+	/* PANEL DE VALIDACIONES */
+	.fixed-derecho{
+		height: 88%;		
+		left: 2% !important;
+		width: 22% !important;
+	}
+	.fixed-bottom{
+		left: 76% !important;
+   		width: 22% !important;
+   		height: 99% !important;
+	}
+	#validar_nombre {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_apellido {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_documento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_departamento {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ciudad {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_telefono {
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_celular{	
+		width: 100%;
+		font-size: 13px;
+		height: 13%;
+	}
+	#validar_ficha{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_programa{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_centro{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_direccion{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_correo{	
+		width: 100%;
+		font-size: 13px;
+		height: 15%;
+	}
+	#validar_contrasena{	
+		width: 100%;
+		height: 15%;
+		font-size: 13px;		
+	}
+	/* PANEL DE VALIDACIONES */
+}
